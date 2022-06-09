@@ -1,0 +1,331 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    padding: 20px;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 48px;
+    margin: 0;
+    display: inline;
+}
+
+header a {
+    text-decoration: none;
+    color: darkblue;
+}
+
+header nav {
+    float: right;
+    margin: 20px 0px;
+    
+}
+
+header nav ul li {
+    display: inline;
+    margin-left: 0px;
+
+}
+
+header nav ul li a {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 35px;
+
+}
+
+nav ul li a {
+    text-decoration: underline;
+}
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./Assets/Images/Hero-min.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.hero h2 {
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 36px;
+}
+
+.about-me {
+    width: 75%;
+    display: inline;
+    padding: 100px;
+    
+}
+
+.about-me h2 {
+    color: darkblue;
+    margin-bottom: 25px;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.about-me p {
+    margin-left: 250px;
+    margin-right: 250px;
+    padding-bottom: 25px;
+    border-bottom: 3px solid lightblue;
+    margin-bottom: 25px;
+    color: blue;
+}
+
+footer {
+    background-color: lightblue;
+    width: 100%;
+    padding: 30px
+}
+
+footer h2 {
+    font-size: 30px;
+    color: darkblue;
+    display: inline
+}
+
+footer h3{
+    float: right;
+    color: darkblue;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.work{
+    width: 75%;
+    display: inline;
+    padding: 300px;
+    
+}
+
+.work h2 {
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+    padding-bottom: 50px;
+    text-decoration: underline;
+}
+
+.projects {
+    background-image: url(./Assets/Images/Projects-min.jpg);
+    height: 500px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.projects h3 {
+    text-align: left;
+    color: lightblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.projects p {
+    text-align: left;
+    color: lightblue;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.projects a {
+    text-align: center;
+    margin-top: 250px;
+    color: transparent;
+    font-size: 40px;
+}
+
+.refactors {
+    background-image: url(./Assets/Images/Refactor-min.jpg);
+    height: 250px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    margin-left: 250px;
+    margin-right: 775px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+.refactors h3 {
+    color: blue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.refactors p {
+    color: blue;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.refactors a{
+    text-align: center;
+    color: transparent;
+}
+
+.languages {
+    background-image: url(./Assets/Images/Languages-min.jpg); 
+    height: 250px;
+    width: auto;
+    background-position: center;
+    background-size: cover;
+    margin-left: 750px;
+    margin-right: 250px;
+    margin-top: -250px;
+    border: 3px solid blue;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.languages h3 {
+    color: lightblue;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.languages p {
+    color: lightblue;
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+.languages a {
+    text-align: center;
+    color: transparent;
+}
+
+
+
+.contact-me h2 {
+    text-align: center;
+    font-size: 30px;
+    color: darkblue;
+    border-top: 3px solid lightblue;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-decoration: underline;
+    margin-left: 250px;
+    margin-right: 250px;
+
+}
+
+section {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    height: 200px;
+    width: 100%;
+    background-image: url(./Assets/Images/Hero-min.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+.contact-info h3 a{
+    display: inline;
+}
+
+.contact-info a {
+    margin: 7px 0;
+    
+}
+
+.phone {
+    color: lightblue;
+    margin-left: 350px;
+}
+
+.phone .phone-title {
+    margin-left: 25px;
+    text-align: left;
+
+}
+
+.phone p {
+    text-decoration: underline;
+}
+
+.email {
+    color: lightblue;
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+.email a {
+    color: lightblue;
+}
+
+.github {
+    color: lightblue;
+    margin-left: 1050px;
+    margin-top: -50px;
+    
+}
+
+.github-title {
+    margin-right: 350px;
+    text-align: right;
+}
+
+
+.github a {
+    color: lightblue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
